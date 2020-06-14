@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    padding-top: 20vh;
+}
+.email{
+    border-bottom: 2px solid green;
+    margin: 20px;
+}
+.password{
+    border: 2px solid green;
+    margin: 20px;
+
+}
