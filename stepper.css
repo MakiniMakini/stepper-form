@@ -15,3 +15,13 @@ body{
     margin: 20px;
 
 }
+/** This class will hide all the body by default **/
+
+#accordion .acc-body{
+display: none;
+}
+
+/** This class will show the body if it has "active" parent class. "active" class will be added to panel div **/
+#accordion .active .acc-body{
+    display: block;
+}
