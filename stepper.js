@@ -32,3 +32,6 @@ function initAccordion(accordionElem) {
   
   initAccordion(document.getElementById("accordion"));
   
+
+  //WORK ON BUTTONS
+ 
