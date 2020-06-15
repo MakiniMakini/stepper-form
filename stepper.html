@@ -8,22 +8,39 @@
 </head>
 <body>
 
-  <div class="container">
+  <div class="container" id="accordion">
       <h1>Email Form</h1>
     <form action="">
         <div>
-            <span>X</span>
-            <label for="emailInput"> Email</label>
-            <input class="email" type="email" id="emailInput" required>
+            <div class="panel">
+                <span>Step 1</span>
+            </div>
+            <div class="acc-header">
+                <label for="emailInput"> Email</label>
+            </div>
+            <div class="acc-body">
+                <input class="email" type="email" id="emailInput" required>
+            </div>
         </div>
-        <br>
         <div>
-            <span>X</span>
-            <label for="passwordInput">Password</label>
-            <input class="password" type="password" required>
+            <div class="panel">
+                <span>Step 2</span>
+            </div>
+            <div class="acc-header">
+                <label for="passwordInput"> Password</label>
+            </div>
+            <div class="acc-body">
+                <input class="password" type="password" id="passwordInput" required>
+            </div>
         </div>
-        <br>
-        <input type="submit">
+        <div>
+            <div class="panel">
+                <span>Step 3</span>
+            </div>
+            <div class="acc-body">
+                <input type="submit">
+            </div>
+        </div>       
     </form>
   </div>
 
