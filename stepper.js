@@ -1,3 +1,9 @@
+
+//:::::::::::::::::::::::::::::::::://
+//:::::::ACCORDION::::::::://
+//:::::::::::::::::::::::::::://
+
+//accordion function
 function initAccordion(accordionElem) {
 
     //when panel is clicked, handlePanelClick is called.          
@@ -33,6 +39,13 @@ function initAccordion(accordionElem) {
   initAccordion(document.getElementById("accordion"));
   
 
+
+
+//::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::://
+//::::::::TABS:::::::::::::::://
+//::::::::::::::::::::::::::://
+
+  //ignore this code here....was tryin to put tabs in the accordion
   //WORK ON TABS
   var currentTab = 0; // Current tab is set to be the first tab (0)
   showTab(currentTab); // Display the current tab
